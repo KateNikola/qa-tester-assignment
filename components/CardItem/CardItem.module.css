@@ -1,0 +1,31 @@
+.cardItem {
+  display: flex;
+  background-color: #efefef;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  line-height: 1;
+}
+
+.cardItemValue {
+  display: block;
+  padding: var(--half-unit) calc(var(--base-unit) * 0.7) var(--half-unit)
+    var(--base-unit);
+  background-color: gray;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+  min-width: calc(var(--base-unit) * 2.5);
+  text-align: right;
+  color: #fff;
+}
+.cardItemValueGreen {
+  background-color: green;
+}
+.cardItemValueRed {
+  background-color: red;
+}
+
+.cardItemLabel {
+  display: block;
+  padding: var(--half-unit) var(--base-unit);
+  font-weight: normal;
+}

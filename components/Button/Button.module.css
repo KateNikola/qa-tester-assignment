@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  align-items: center;
+  background-color: lightBlue;
+  border-radius: var(--border-radius);
+  border: none;
+  font-size: var(--font-size);
+  cursor: pointer;
+}
+
+.buttonIcon {
+  width: calc(var(--base-unit) * 2);
+  height: calc(var(--base-unit) * 2);
+  padding: var(--half-unit);
+  background-color: blue;
+  border-radius: 100%;
+}
+
+.buttonLabel {
+  padding: var(--half-unit) var(--base-unit) var(--half-unit) var(--half-unit);
+  line-height: 1;
+}
+
+.button:active,
+.button.active {
+  background-color: blue;
+  color: white;
+}
